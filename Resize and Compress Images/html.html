@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize and Compress Images</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenir">
+        <div class="box-insert-img box  " >
+            <input type="file" accept="image/*" hidden>
+            <img src="upload img.jpeg" alt=""  >
+            <p>Browse file to upload</p>
+        </div>
+        <div class="row-w-h">
+            <p>width</p>
+            <p>height</p>
+        </div>
+        <div class="row-input">
+            <input type="number" class="wIn">
+            <input type="number"class="hIn">
+        </div>
+        <div class="row-check">
+            <label for="lock"><input id="lock" type="checkbox" checked> lock aspect ratio </label> 
+            
+            <label for="quality"><input id="quality" type="checkbox" checked> reduce quality</label>
+            
+        </div>
+        <div class="btn-download">
+            <button id="btn-download">download image</button>
+        </div>
+    </div>
+
+    
+<!-- <div>
+    <embed src="oie_trans (1).gif" type="">
+</div> -->
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+</html>
